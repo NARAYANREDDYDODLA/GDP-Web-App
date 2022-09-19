@@ -1,10 +1,11 @@
 {
-  "name": "GDP-Web-App",
+  "name": "gdp-web-app",
   "version": "1.0.0",
   "description": "GDP-Smart Mobility Admin Web Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,11 @@
   },
   "homepage": "https://github.com/nameissatheesh/GDP-Web-App#readme",
   "dependencies": {
-    "firebase": "^9.8.2"
+    "express": "^4.18.1",
+    "firebase": "^9.8.2",
+    "nodemailer": "^6.7.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
