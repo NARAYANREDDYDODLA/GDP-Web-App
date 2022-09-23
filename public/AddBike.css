@@ -1,0 +1,44 @@
+body {
+    background-image: url('BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    
+}
+.topnav {
+    background-color:rgb(0, 100, 128);
+    overflow: hidden;
+  }
+
+.rider
+{
+    color: aqua;
+}
+.rider-1
+{
+    color: aqua;  
+}
+.p-1
+{
+    color: aqua;
+}
+.p-2
+{
+    color: aqua;
+}
+
+  
+  .flex-container > div {
+    background-color:blue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 250px;
+    
+  }
