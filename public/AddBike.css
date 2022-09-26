@@ -1,0 +1,44 @@
+body {
+    background-image: url('movingbike1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    }
+.navbar{
+    width: 1300px;
+    height: 75px;
+    margin: auto;
+    text-align: center;
+    
+}
+.topnav {
+    background-color:rgb(47, 128, 0);
+    overflow: hidden;
+  }
+
+.rider
+{
+    color:green;
+}
+.rider-1
+{
+    color:green;  
+}
+.p-1
+{
+    color: green;
+}
+.p-2
+{
+    color:green;
+}
+
+  
+  .flex-container > div {
+    background-color:rgb(0, 255, 38);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 250px;
+    
+  }
