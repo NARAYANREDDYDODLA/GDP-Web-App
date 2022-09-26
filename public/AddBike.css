@@ -1,5 +1,5 @@
 body {
-    background-image: url('BG.jpg');
+    background-image: url('movingbike1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -12,30 +12,30 @@ body {
     
 }
 .topnav {
-    background-color:rgb(0, 100, 128);
+    background-color:rgb(47, 128, 0);
     overflow: hidden;
   }
 
 .rider
 {
-    color: aqua;
+    color:green;
 }
 .rider-1
 {
-    color: aqua;  
+    color:green;  
 }
 .p-1
 {
-    color: aqua;
+    color: green;
 }
 .p-2
 {
-    color: aqua;
+    color:green;
 }
 
   
   .flex-container > div {
-    background-color:blue;
+    background-color:rgb(0, 255, 38);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
