@@ -1,7 +1,4 @@
-// var express = require('express');
-// var app = express();
 
-// const admin = require('firebase-admin');
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.2/firebase-app.js";
@@ -45,68 +42,3 @@ querySnapshot.forEach((doc) => {
 
 
 
-
-// //init services
-// const db = getFirestore()
-
-// // collection reference
-
-// const colRef = collection(db, 'users')
-
-// // get collection
-
-// getDocs(colRef)
-//     .then((snapshot)  => {
-//         let users =  []
-        
-//         snapshot.docs.forEach((doc)={
-//             users.push({...doc.data()})
-//         })
-//         console.log(users)
-//     })
-//         .catch(err =>{
-//             console.log(err.message)
-//      })
-
-
-
-
-
-// app.post('/create-user', (req, res) => {
-//     const {name, email, password, phoneno, location } = req.body;
-//     const auth = firebase.auth();
-//     auth.createUserWithEmailAndPassword(email, password)
-//         .then((user) => {
-//             firebase.firestore().collection("users").doc().set({
-//                 "name": name,
-//                 "email": email,
-//                 "phoneno": phoneno,
-//                 "address": address,
-//             })
-//             .then(() => {
-//                 res.send('User created successfully');
-//             });
-//         })
-//         .catch(err => {
-//             res.send(err);
-//         });
-// });
-
-
-// app.then((user) => {
-//     firebase.firestore().collection("users").doc().set({
-//         "name": name,
-//         "email": email,
-//         "phoneno": phoneno,
-//         "address": address,
-//     })
-//     .then(() => {
-//         res.send('User created successfully');
-//     });
-// })
-
-// var port = 3200;
-
-// app.listen(port, () => {
-//     console.log("🟢 server is up and running at " + port);
-// })
